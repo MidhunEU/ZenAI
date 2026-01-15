@@ -94,7 +94,7 @@ export const OnboardingModal: React.FC<{onLogin: () => void}> = ({ onLogin }) =>
             <div className="space-y-3">
                 <button onClick={onLogin} className="w-full py-3.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-xl shadow-lg hover:scale-[1.02] transition-transform">Get started</button>
                 <div className="text-[10px] opacity-40 pt-4 text-zinc-600 dark:text-zinc-400">
-                    By proceeding you agree to our{" "}
+                    By proceeding you accept our{" "}
                     <a
                         href="/terms.html"
                         rel="noopener noreferrer"
