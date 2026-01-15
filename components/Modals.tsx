@@ -94,7 +94,22 @@ export const OnboardingModal: React.FC<{onLogin: () => void}> = ({ onLogin }) =>
             <div className="space-y-3">
                 <button onClick={onLogin} className="w-full py-3.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-xl shadow-lg hover:scale-[1.02] transition-transform">Get started</button>
                 <div className="text-[10px] opacity-40 pt-4 text-zinc-600 dark:text-zinc-400">
-                    By using Zen AI, you agree to our <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Terms</a> and <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Privacy Policy</a>.
+                    By using Zen AI, you agree to our{" "}
+                    <a
+                        href="/terms.html"
+                        rel="noopener noreferrer"
+                        className="underline hover:opacity-100"
+                        >
+                        Terms of Service
+                    </a>{" "}
+                    and{" "}
+                    <a
+                        href="/privacy.html"
+                        rel="noopener noreferrer"
+                        className="underline hover:opacity-100"
+                        >
+                        Privacy Policy
+                    </a>
                 </div>
             </div>
         </div>
