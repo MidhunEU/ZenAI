@@ -90,11 +90,11 @@ export const OnboardingModal: React.FC<{onLogin: () => void}> = ({ onLogin }) =>
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-zinc-900 dark:via-zinc-100 to-transparent opacity-20"></div>
             <div className="w-20 h-20 bg-zinc-100 dark:bg-zinc-800 rounded-full flex items-center justify-center mx-auto mb-6"><Icons.YinYang size={32} className="opacity-50 text-zinc-900 dark:text-zinc-100"/></div>
             <h2 className="text-2xl font-bold mb-3 text-zinc-900 dark:text-zinc-100">Welcome to Zen AI</h2>
-            <p className="opacity-70 mb-8 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">Minimalist, privacy-focused, and cloud-powered. Click below to start a temporary session instantly.</p>
+            <p className="opacity-70 mb-8 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">Keep your body and mind focused with a truly minimal assistant which will never give you up or let you down.</p>
             <div className="space-y-3">
-                <button onClick={onLogin} className="w-full py-3.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-xl shadow-lg hover:scale-[1.02] transition-transform">Start Zen AI</button>
+                <button onClick={onLogin} className="w-full py-3.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-xl shadow-lg hover:scale-[1.02] transition-transform">Get started</button>
                 <div className="text-[10px] opacity-40 pt-4 text-zinc-600 dark:text-zinc-400">
-                    By starting, you agree to our <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Terms</a> and <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Privacy Policy</a>.
+                    By using Zen AI, you agree to our <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Terms</a> and <a href="#" rel="noopener noreferrer" className="underline hover:opacity-100">Privacy Policy</a>.
                 </div>
             </div>
         </div>
