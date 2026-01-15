@@ -518,7 +518,7 @@ function App() {
                     {!messages.length && (
                         <div className="absolute inset-0 flex flex-col items-center justify-center opacity-30 select-none pointer-events-none pb-24">
                             <div className={`w-20 h-20 rounded-full flex items-center justify-center mb-6 text-zinc-400 dark:text-zinc-600 animate-fade-in`}>{privateMode ? <Icons.Ghost size={56}/> : <Icons.YinYang size={56}/>}</div>
-                            <p className="text-2xl font-semibold tracking-tight animate-slide-up text-zinc-800 dark:text-zinc-200">{privateMode ? 'Private Mode' : 'Your Zen is ready'}</p>
+                            <p className="text-2xl font-semibold tracking-tight animate-slide-up text-zinc-800 dark:text-zinc-200">{privateMode ? 'Your secrets are safe' : 'Zen is ready to chat'}</p>
                         </div>
                     )}
                     <div className="max-w-3xl mx-auto space-y-6 pb-4">
