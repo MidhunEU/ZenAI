@@ -114,7 +114,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 )}
                 <div className="p-3 border-t border-inherit bg-black/5 dark:bg-white/5">
                     {user ? (
-                        <div className="flex items-center gap-3 px-3 py-3 mb-2 bg-white/50 dark:bg-black/20 rounded-xl cursor-pointer hover:bg-white/80 dark:hover:bg-black/40 transition-colors" title={`Manage Account: ${user.username}`} onClick={() => window.open('https://puter.com/account', '_blank')}>
+                        <div className="flex items-center gap-3 px-3 py-3 mb-2 bg-white/50 dark:bg-black/20 rounded-xl cursor-pointer hover:bg-white/80 dark:hover:bg-black/40 transition-colors" title={`Manage Account: ${user.username}`} onClick={() => window.open('https://puter.com/dashboard', '_blank')}>
                             <div className="w-8 h-8 rounded-full bg-zinc-300 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-200 flex items-center justify-center text-xs font-bold">{user.username.substring(0,2).toUpperCase()}</div>
                             <div className="flex-1 overflow-hidden">
                                 <div className="text-sm font-medium truncate text-zinc-900 dark:text-zinc-100">{user.username}</div>
