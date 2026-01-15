@@ -585,8 +585,8 @@ function App() {
                         
                         <div className="grid grid-cols-2 gap-3 mb-6">
                             {['GitHub', 'LinkedIn', 'Bluesky', 'Email'].map(l => (
-                                <a key={l} 
-                                   href={l === 'GitHub' ? 'https://github.com/MidhunEU' : l === 'LinkedIn' ? 'https://linkedin.com/in/your-profile' : l === 'Bluesky' ? 'https://bsky.app/profile/your-handle' : 'mailto:you@email.com'}
+                                    <a key={l} 
+                                    href={l === 'GitHub' ? 'https://github.com/MidhunEU' : l === 'LinkedIn' ? 'https://linkedin.com/in/MidhunEU' : l === 'Bluesky' ? 'https://bsky.app/profile/midhuneu.bsky.social' : 'mailto:biz.midhun@proton.me'}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="flex items-center justify-center gap-2 py-3 bg-zinc-100 dark:bg-zinc-800 rounded-xl hover:bg-zinc-200 dark:hover:bg-zinc-700 transition font-medium text-xs"
@@ -596,8 +596,8 @@ function App() {
                                     {l === 'Bluesky' && <Icons.Bluesky size={16} />}
                                     {l === 'Email' && <Icons.EmailEnvelope size={16} />}
                                     {l}
-                                </a>
-                ))}
+                                    </a>
+                        ))}
                         </div>
                         <div className="mt-4 text-[10px] opacity-40 uppercase tracking-widest">Last updated on Jan 15, 2026</div>
                     </div>
