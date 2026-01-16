@@ -594,7 +594,7 @@ function App() {
                                     {l === 'GitHub' && <Icons.Github size={16} />}
                                     {l === 'LinkedIn' && <Icons.Linkedin size={16} />}
                                     {l === 'Bluesky' && <Icons.Bluesky size={16} />}
-                                    {l === 'Email' && <Icons.EmailEnvelope size={16} />}
+                                    {l === 'Contact' && <Icons.EmailEnvelope size={16} />}
                                     {l}
                                     </a>
                         ))}
