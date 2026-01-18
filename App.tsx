@@ -599,7 +599,7 @@ function App() {
                                     </a>
                         ))}
                         </div>
-                        <div className="mt-4 text-[10px] opacity-40 uppercase tracking-widest">Last updated on Jan 15, 2026</div>
+                        <div className="mt-4 text-[10px] opacity-40 uppercase tracking-widest">Last updated on Jan 18, 2026</div>
                     </div>
                 </div>
             )}
