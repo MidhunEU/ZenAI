@@ -77,7 +77,7 @@ export const SettingsModal: React.FC<{
                 </div>
 
                 <div className="pt-6 border-t border-zinc-200 dark:border-zinc-800">
-                    <button onClick={onClearHistory} className="w-full py-3 text-red-600 dark:text-red-500 text-sm font-medium bg-red-50 dark:bg-red-900/10 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-xl transition-colors">Clear History</button>
+                    <button onClick={onClearHistory} className="w-full py-3 text-red-600 dark:text-red-500 text-sm font-medium bg-red-50 dark:bg-red-900/10 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-xl transition-colors">Clear history</button>
                 </div>
             </div>
         </div>
